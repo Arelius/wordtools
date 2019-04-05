@@ -12,4 +12,4 @@ def AlternatingWords(wordPath):
                 yield word.strip()
 
 if __name__ == "__main__":
-    for word in AlternatingWords(os.path.expanduser(r'~/Dropbox/bin/words/english/words.txt')): print word
+    for word in AlternatingWords(os.path.expanduser(r'~/Dropbox/bin/words/english/words.txt')): print(word)
